@@ -1,0 +1,7 @@
+/* start banner */
+section.banner img {
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+/* end banner */

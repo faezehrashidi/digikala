@@ -1,0 +1,11 @@
+/* start banner */
+section.banner
+  > div.banner-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > img {
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+/* end banner */

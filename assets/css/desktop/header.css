@@ -1,0 +1,52 @@
+/*start header.des*/
+header.des {
+  width: 100%;
+  height: 70px;
+  padding: 0px 24px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 99;
+  background-color: #fff;
+}
+header.des > div.right-box-des {
+  width: 50%;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+}
+header.des > div.right-box-des > input {
+  width: 65%;
+  height: 40px;
+  font-size: 12px;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  border: 1px solid #f0f0f1;
+  background-origin: 2px;
+  background-color: #f0f0f1;
+}
+header.des > div.left-box-des {
+  width: 50%;
+  display: flex;
+  flex-flow: row;
+  justify-content: end;
+  align-items: center;
+  gap: 18px;
+}
+header.des > div.left-box-des > button {
+  width: 18%;
+  padding: 7px 16px;
+  background-color: #fff;
+  font-size: 12px;
+  border-radius: 12px;
+  border: 2px solid #d2d2d2;
+}
+header.tt {
+  display: none;
+}
+/* end header.des */

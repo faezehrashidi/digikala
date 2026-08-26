@@ -1,0 +1,64 @@
+/*start popular-brand*/
+section.popular-brand {
+  width: 100%;
+  height: 165px;
+  padding: 8px;
+  margin: 40px auto;
+}
+section.popular-brand > div.popular-brand-header {
+  width: 100%;
+  padding: 8px;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+section.popular-brand > div.popular-brand-header > span {
+  font-size: 14px;
+  font-weight: 700;
+}
+section.popular-brand > div.popular-brand-swiper {
+  width: 100%;
+  padding: 8px;
+}
+section.popular-brand > div.popular-brand-swiper > div.swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+section.popular-brand
+  > div.popular-brand-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide {
+  width: 90px;
+  height: 120px;
+  padding: 5px;
+  border: 1px solid #d2d2d2;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+section.popular-brand
+  > div.popular-brand-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > img {
+  width: 78px;
+  height: 78px;
+  object-fit: contain;
+}
+section.popular-brand
+  > div.popular-brand-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > span {
+  width: 100%;
+  border-top: 2px solid #f0f0f1;
+  padding: 5px;
+  font-size: 10px;
+  line-height: 1.2;
+  color: #000;
+}
+/* end popular-brand  */

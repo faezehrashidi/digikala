@@ -1,0 +1,19 @@
+/* start image */
+section.image {
+  width: 100%;
+  height: 750px;
+  padding: 18px;
+  margin: 40px auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+section.image > img {
+  width: 100%;
+  height: 350px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+/* end image */

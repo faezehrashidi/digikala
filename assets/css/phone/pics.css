@@ -1,0 +1,20 @@
+/* start pics */
+section.pics {
+  width: 100%;
+  height: 240px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+section.pics > div.image {
+  width: 98%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 8px;
+}
+section.pics > div.image > img {
+  width: 100%;
+  height: 112px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+/* end pics */

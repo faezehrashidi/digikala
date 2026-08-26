@@ -1,0 +1,105 @@
+/*start header*/
+header.tt {
+  width: 100%;
+  height: 160px;
+  padding: 8px;
+  position: sticky;
+  top: 0px;
+  z-index: 99;
+  background-color: #f0f0f1;
+}
+header.tt > div.header-swiper {
+  width: 100%;
+  height: 85px;
+  padding: 8px;
+  overflow-x: hidden;
+}
+header.tt > div.header-swiper > div.swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+header.tt > div.header-swiper > div.swiper-wrapper > div.swiper-slide {
+  width: 68px;
+  height: 68px;
+  padding: 5px;
+  border: 1px solid #d2d2d2;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header.tt > div.header-swiper > div.swiper-wrapper > div.swiper-slide > img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+header.tt > div.header-swiper > div.swiper-wrapper > div.swiper-slide > span {
+  font-size: 10px;
+  color: #000;
+}
+header.tt > div.header-search {
+  width: 100%;
+  height: 45px;
+  margin-top: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+header.tt > div.header-search > div.search {
+  width: 80%;
+  height: 85%;
+  margin-right: 7px;
+  padding: 8px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: right;
+  align-items: center;
+  gap: 5px;
+  background-color: white;
+  border: 1px solid silver;
+  border-radius: 50px;
+}
+header.tt > div.header-search > div.search > div.search-icon {
+  width: 10%;
+  height: 100%;
+  line-height: 90%;
+}
+header.tt > div.header-search > div.search > div.search-icon > svg {
+  width: 100%;
+  height: 100%;
+}
+header.tt > div.header-search > div.search > span {
+  width: 60px;
+  height: 100%;
+  font-size: 14px;
+  color: #818588;
+}
+header.tt > div.header-search > div.search > svg {
+  width: 65px;
+  height: 100%;
+  font-size: 14px;
+  color: #818588;
+}
+header.tt > div.header-search > div.bell {
+  width: 10%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid silver;
+  border-radius: 50%;
+}
+header.tt > div.header-search > div.bell > svg {
+  width: 70%;
+  height: 70%;
+}
+div.address {
+  display: none;
+}
+header.des {
+  display: none;
+}
+/* end header */

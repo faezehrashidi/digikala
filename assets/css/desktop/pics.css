@@ -1,0 +1,28 @@
+/* start pics */
+section.pics {
+  width: 100%;
+  height: 280px;
+  padding: 0px 95px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+section.pics > .image {
+  width: 48%;
+  height: 100%;
+}
+section.pics > .image > img {
+  width: 100%;
+  height: 95%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+section.pics > .image:nth-of-type(3) {
+  display: none;
+}
+section.pics > .image:nth-of-type(4) {
+  display: none;
+}
+/* end pics */

@@ -1,0 +1,95 @@
+/* start nav.des */
+nav.des {
+  width: 100%;
+  height: 40px;
+  padding: 12px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+nav.des > div.menu {
+  width: 55%;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+nav.des > div.menu > ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+}
+nav.des > div.menu > div.megamenu {
+  width: 20%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+nav.des > div.menu > div.megamenu > span {
+  font-size: 14px;
+  color: #3f4064;
+  cursor: pointer;
+}
+nav.des > div.menu > div.megamenu > span > ul {
+  width: 15%;
+  height: 400px;
+  padding: 12px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 40px;
+  right: 35px;
+  z-index: 99;
+  cursor: pointer;
+  overflow: scroll;
+  display: none;
+}
+nav.des > div.menu > div.megamenu > span:hover > ul {
+  display: block;
+}
+nav.des > div.menu > div.megamenu > span > ul > li {
+  width: 100%;
+  height: 50px;
+}
+nav.des > div.menu > div.megamenu > span > ul > li > a {
+  padding: 12px;
+  font-size: 14px;
+  color: #62666d;
+  list-style: none;
+  text-decoration: none;
+}
+nav.des > div.menu > ul > li > a {
+  font-size: 12px;
+  color: #62666d;
+  text-decoration: none;
+}
+nav.des > div.address {
+  width: 9%;
+  padding: 8px 12px;
+  background-color: rgb(255, 239, 225);
+
+  border-radius: 12px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+nav.des > div.address > p {
+  font-size: 12px;
+  opacity: 1;
+  color: #f57f17;
+  margin-bottom: 0px;
+}
+nav.tt {
+  display: none;
+}
+/* end nav.des */

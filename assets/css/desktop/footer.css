@@ -1,0 +1,274 @@
+/* start footer desktop */
+footer.mt {
+  display: none;
+}
+footer.desktop {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #d2d2d2;
+  margin-top: 100px;
+}
+footer.desktop > div.logo {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer.desktop > div.logo > svg {
+  width: 195px;
+  height: 30px;
+}
+footer.desktop > div.logo > button {
+  width: 140px;
+  height: 40px;
+  font-size: 12px;
+  border: 1px solid #d2d2d2;
+  background-color: #fff;
+  color: #a1a3a8;
+  border-radius: 8px;
+}
+footer.desktop > div.call {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 18px;
+}
+footer.desktop > div.call > p {
+  font-size: 12px;
+  padding-left: 10px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  color: #3f4064;
+  border-left: 1px solid #d2d2d2;
+}
+footer.desktop > div.call > span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #3f4064;
+  border-left: 1px solid #d2d2d2;
+  padding-left: 10px;
+}
+footer.desktop > div.call > div {
+  font-size: 12px;
+  font-weight: 400;
+  color: #3f4064;
+}
+footer.desktop > div.send {
+  width: 100%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+footer.desktop > div.send > div {
+  width: 80%;
+}
+footer.desktop > div.send > div > svg {
+  width: 80%;
+  align-self: center;
+}
+footer.desktop > div.send > div > p {
+  font-size: 11px;
+  text-align: center;
+  color: #3f4064;
+}
+footer.desktop > div.detail {
+  width: 100%;
+  padding: 20px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 12px;
+}
+footer.desktop > div.detail > div {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  align-items: start;
+}
+footer.desktop > div.detail > div > h2 {
+  font-size: 16px;
+  color: #3f4064;
+}
+
+footer.desktop > div.detail > div > ul {
+  padding: 8px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 12px;
+}
+footer.desktop > div.detail > div > ul > li > a {
+  text-decoration: none;
+  color: #81858b;
+  font-size: 14px;
+}
+footer.desktop > div.detail > div.last {
+  width: 100%;
+}
+
+footer.desktop > div.detail > div.last > h3 {
+  font-size: 16px;
+  color: #3f4064;
+}
+footer.desktop > div.detail > div.last > div {
+  display: flex;
+  flex-flow: row;
+  gap: 10px;
+}
+footer.desktop > div.detail > div.last > div > input {
+  width: 260px;
+  height: 50px;
+  padding: 8px;
+  background-color: #f0f0f1;
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+}
+footer.desktop > div.detail > div.last > div > button {
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  color: #fff;
+  background-color: #f0f0f1;
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+}
+footer.desktop > div.dow {
+  width: 100%;
+  height: 70px;
+  padding: 20px;
+  background-color: #3c4b6d;
+  border-radius: 12px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer.desktop > div.dow > div.footer-right {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+}
+footer.desktop > div.dow > div.footer-right > img {
+  width: 45px;
+  height: 45px;
+}
+footer.desktop > div.dow > div.footer-right > h2 {
+  font-size: 21px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+footer.desktop > div.dow > div.footer-left {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: end;
+  align-items: center;
+  gap: 8px;
+}
+footer.desktop > div.dow > div.footer-left > svg {
+  width: 142px;
+  height: 44px;
+  border-radius: 8px;
+}
+footer.desktop > div.dow > div.footer-left > svg.more {
+  width: 44px;
+  height: 44px;
+  background-color: #fff;
+}
+footer.desktop > div.text {
+  width: 100%;
+  padding: 30px;
+  border-top: 1px solid #d2d2d2;
+  margin-top: 40px;
+  padding-top: 45px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+footer.desktop > div.text > div.footer-desktop-text {
+  width: 70%;
+}
+footer.desktop > div.text > div.footer-desktop-text > h1 {
+  font-size: 21px;
+  font-weight: 500;
+  color: #81858b;
+}
+footer.desktop > div.text > div.footer-desktop-text > h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #81858b;
+}
+footer.desktop > div.text > div.footer-desktop-text > p {
+  line-height: 2.2;
+  font-size: 12px;
+  font-weight: 500;
+  color: #81858b;
+}
+footer.desktop > div.text > div.footer-desktop-text > p > span {
+  font-size: 12 px;
+  font-weight: 400;
+  color: #1672dd;
+}
+footer.desktop > div.text > div.nama {
+  width: 28%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: start;
+}
+footer.desktop > div.text > div.nama > img {
+  padding: 15px;
+  justify-self: center;
+  outline: 1px solid #d2d2d2;
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+}
+footer.desktop > div.end {
+  width: 100%;
+  border-top: 1px solid #d2d2d2;
+}
+footer.desktop > div.end > p {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 11px;
+  text-align: center;
+}
+footer.desktop > div.end > div.brands {
+  width: 100%;
+  background-color: #f0f0f1;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+footer.desktop > div.end > div.brands > a {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer.desktop > div.end > div.brands > a > img {
+  width: 125px;
+  height: 20px;
+  padding: 0 20px;
+}
+
+/* end footer desktop */

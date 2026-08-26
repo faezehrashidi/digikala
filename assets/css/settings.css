@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: iy, medium, bold, cd;
+}
+@font-face {
+  font-family: iy;
+  src: url(../fonts/iranyekanwebregular.b95439c1.b95439c1\(1\).woff);
+}
+@font-face {
+  font-family: medium;
+  src: url(../fonts/iranyekanwebmedium.2d4f96e5.2d4f96e5.woff);
+}
+@font-face {
+  font-family: bold;
+  src: url(../fonts/iranyekanwebbold.e298fdc6.e298fdc6.woff);
+}
+@font-face {
+  font-family: cd;
+  src: url(../fonts/cube.6cd810dd.6cd810dd.woff);
+}

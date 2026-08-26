@@ -1,0 +1,34 @@
+/*start icon*/
+section.icon {
+  width: 100%;
+  height: 120px;
+  padding: 8px;
+  margin: 10px 0 auto;
+}
+section.icon > div.icon-swiper {
+  width: 100%;
+  height: 120px;
+  padding: 8px;
+}
+section.icon > div.icon-swiper > div.swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+section.icon > div.icon-swiper > div.swiper-wrapper > div.swiper-slide {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+}
+section.icon > div.icon-swiper > div.swiper-wrapper > div.swiper-slide > img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+section.icon > div.icon-swiper > div.swiper-wrapper > div.swiper-slide > span {
+  font-size: 10px;
+  font-weight: 700;
+  color: #3f4064;
+}
+/* end icon */

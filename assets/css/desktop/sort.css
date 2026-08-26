@@ -1,0 +1,42 @@
+/*start sort*/
+section.sort {
+  width: 85%;
+  height: 350px;
+  margin: 0px auto;
+}
+section.sort > div.titr {
+  width: 100%;
+  padding-right: 15px;
+  padding-bottom: 15px
+}
+section.sort > div.titr > span {
+  font-size: 21px;
+  font-weight: 700;
+}
+section.sort > div.sort-swiper {
+  width: 100%;
+}
+section.sort > div.sort-swiper > div.swiper-wrapper {
+  width: 100%;
+  margin-top: 15px;
+}
+section.sort > div.sort-swiper > div.swiper-wrapper > div.swiper-slide {
+  background-color: transparent;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+section.sort > div.sort-swiper > div.swiper-wrapper > div.swiper-slide > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+section.sort > div.sort-swiper > div.swiper-wrapper > div.swiper-slide > span {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 2;
+  color: #0c0c0c;
+}
+/* end sort */
