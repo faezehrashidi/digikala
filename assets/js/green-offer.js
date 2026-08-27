@@ -1,8 +1,8 @@
 const fetchGreen = async () => {
   try {
-    let data = await fetch("https://faezehrashidi.github.io/digikala-db/db.jsonr");
+    let data = await fetch("https://faezehrashidi.github.io/digikala-db/db.json");
     let res = await data.json();
-    let greenItem = res.green - offer.map((elem) => {
+    let greenItem = res["green-offer"].map((elem) => {
       return `
          <div class="swiper-slide">
           <div class="card">

@@ -2,7 +2,7 @@ const fetchPopular = async () => {
   try {
     let data = await fetch("https://faezehrashidi.github.io/digikala-db/db.json");
     let res = await data.json();
-    let popularItem = res.popular - brand.map((elem) => {
+    let popularItem = res["popular-brand"].map((elem) => {
       return `
            <div class="swiper-slide">
               <img src="${elem.src}" alt="${elem.alt}">
