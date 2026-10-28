@@ -1,6 +1,6 @@
 const fetchBestseller = async () => {
   try {
-    let data = await fetch("https://faezehrashidi.github.io/digikala-db/db.json");
+    let data = await fetch("https://faezehrashidi.github.io/digikala/db.json");
     let res = await data.json();
     let bestsellerItem = res.bestseller.map((elem) => {
       return `
